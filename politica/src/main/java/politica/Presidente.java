@@ -3,7 +3,7 @@ package main.java.politica;
 /**
  * Created by jloliveira1 on 08/11/2016.
  */
-public class Presidente {
+public class Presidente extends Candidato {
 
     public Presidente()
     {
