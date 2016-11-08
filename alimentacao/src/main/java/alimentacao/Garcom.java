@@ -20,6 +20,7 @@ public class Garcom extends Funcionario {
     public void ReceberCta(){
     }
     public void Limpar(){
+        
     }
 }
 
