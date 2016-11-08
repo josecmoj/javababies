@@ -1,6 +1,6 @@
 package main.java.politica;
 
-import br.com.javababies.politica.eleitor.Eleitor;
+import main.java.politica.eleitor.Eleitor;
 
 /**
  * Created by jloliveira1 on 01/11/2016.
