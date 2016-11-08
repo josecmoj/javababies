@@ -1,4 +1,4 @@
-package br.com.stefanini.saude;
+package main.java.saude;
 
 /**
  * Created by mcsilva3 on 03/11/2016.
