@@ -8,7 +8,6 @@ public class Prefeito extends Candidato
 
     public Prefeito()
     {
-            /**teste*/
     }
 
 
