@@ -13,12 +13,13 @@ public class Governador extends Candidato
      */
     public Governador()
     {
+        /**teste*/
     }
 
-    public void gravarCandidato(String numCandidato){
-        if(numCandidato.length() == 2)
+    public void gravarCandidato(String numCandidatos){
+        if(numCandidatos.length() == 2)
         {
-            super.NumeroCandidato = Integer.parseInt(numCandidato);
+            super.NumeroCandidato = Integer.parseInt(numCandidatos);
         }
     }
 }
