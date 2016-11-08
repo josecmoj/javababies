@@ -1,4 +1,4 @@
-package br.com.javababies.politica;
+package main.java.politica;
 
 import br.com.javababies.politica.eleitor.Eleitor;
 
