@@ -5,21 +5,11 @@ package main.java.politica;
  */
 public class Governador extends Candidato
 {
-    // variáveis de instância - substitua o exemplo abaixo pelo seu próprio
-    private int x;
 
-    /**
-     * COnstrutor para objetos da classe Governador
-     */
-    public Governador()
-    {
-        /**teste*/
-    }
-
-    public void gravarCandidato(String numCandidatos){
-        if(numCandidatos.length() == 2)
+    public void gravarCandidato(String numCandidato){
+        if(numCandidato.length() == 2)
         {
-            super.NumeroCandidato = Integer.parseInt(numCandidatos);
+            super.NumeroCandidato = Integer.parseInt(numCandidato);
         }
     }
 }

@@ -9,9 +9,6 @@ public abstract class Candidato extends Eleitor
 {
     protected int NumeroCandidato;
     Partido part1 = new Partido();
-    public Candidato()
-    {
-    }
 
     public abstract void gravarCandidato(String numCandidato);
 

@@ -5,11 +5,6 @@ package main.java.politica;
  */
 public class Vereador extends Candidato
 {
-
-    public Vereador()
-    {
-    }
-
     public void gravarCandidato(String numCandidato){
         if(numCandidato.length() == 5)
         {

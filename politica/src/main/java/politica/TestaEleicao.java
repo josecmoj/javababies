@@ -1,6 +1,5 @@
 package main.java.politica;
 
-
 import main.java.politica.eleitor.Eleitor;
 
 /**

@@ -5,11 +5,6 @@ package main.java.politica;
  */
 public class Presidente extends Candidato {
 
-    public Presidente()
-    {
-    }
-
-
     public void gravarCandidato(String numCandidato){
         System.out.println(numCandidato.length());
         if(numCandidato.length() <3)
