@@ -1,13 +1,20 @@
-package br.com.javaforbabies.comunicacoes.Pessoa;
+package main.java.comunicacao.pessoa;
 
-import br.com.javaforbabies.comunicacoes.Produto.Pedido;
+public class Funcionario extends  Pessoa {
+        protected String cargo;
+        protected int salario;
 
-/**
- * Created by frrodrigues1 on 03/11/2016.
- */
-public class Funcionario extends Pessoa {
-    protected String cargo;
-    protected int salario;
+        public String getCargo() {
+                return this.cargo;
+        }
+        public void setCargo(String cargo) {
+                this.cargo = cargo;
+        }
+        public int getSalario() {
+                return this.salario;
+        }
+        public void setSalario(int salario) {
+                this.salario = salario;
+        }
 
-    Pedido ped = new Pedido();
 }

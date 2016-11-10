@@ -1,9 +1,6 @@
-package br.com.javaforbabies.comunicacoes.Pessoa;
+package main.java.comunicacao.pessoa;
 
-/**
- * Created by frrodrigues1 on 03/11/2016.
- */
-public class Pessoa {
+public abstract class Pessoa {
     protected int cgccpf;
     protected String nome;
     protected String tipopessoa;
@@ -11,9 +8,9 @@ public class Pessoa {
     /** Metodos Personalizados
     **/
     public void status(){
-        System.out.println("CGCCPF : " + this.cgccpf);
-        System.out.println ("NOME  : " + this.nome);
-        System.out.println ("TIPO  : " + this.tipopessoa);
+        System.out.println("CGCCPF : " + getCgccpf());
+        System.out.println ("NOME  : " + getNome());
+        System.out.println ("TIPO  : " + getTipopessoa());
     }
 
     /** Metodos Especiais
@@ -36,7 +33,7 @@ public class Pessoa {
         return this.tipopessoa;
     }
     public void setTipopessoa(String tipopessoa) {
-        this.nome = tipopessoa;
+        this.tipopessoa = tipopessoa;
     }
 
 }

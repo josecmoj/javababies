@@ -1,8 +1,5 @@
-package br.com.javaforbabies.comunicacoes.Produto;
+package main.java.comunicacao.produto;
 
-/**
- * Created by frrodrigues1 on 03/11/2016.
- */
 public class Panfleto extends ComunicacaoVisual {
 
 

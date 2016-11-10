@@ -1,20 +1,18 @@
-package br.com.javaforbabies.comunicacoes.Produto;
+package main.java.comunicacao.produto;
 
-/**
- * Created by frrodrigues1 on 01/11/2016.
- */
-public abstract class ComunicaoVisual {
+public abstract class ComunicacaoVisual {
     // declaracao de atributos
-    public float altura;
-    public float largura;
+    public int altura;
+    public int largura;
     public String cores;
+    public int arte;
 
     // Getters e Setters
     public void setAltura(int valor) {
         this.altura = valor;
     }
     public int getAltura() {
-        return this.altuura;
+        return this.altura;
     }
 
     public void setLargura(int valor) {
