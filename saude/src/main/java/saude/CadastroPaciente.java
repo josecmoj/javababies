@@ -9,7 +9,17 @@ import javax.swing.*;
 public class CadastroPaciente {
     public static void main(String[] args){
         String nome = JOptionPane.showInputDialog(null, "Digite seu nome: ");
+        while (nome.isEmpty()){
+            JOptionPane.showMessageDialog(null, "Por favor, digite seu nome!");
+            nome = JOptionPane.showInputDialog(null, "Digite seu nome: ");
+        }
         String cpf = JOptionPane.showInputDialog(null, "Digite seu CPF: ");
+        while (cpf.isEmpty()){
+            JOptionPane.showMessageDialog(null, "Por favor, digite seu CPF!");
+            cpf = JOptionPane.showInputDialog(null, "Digite seu CPF: ");
+        }
+
+
 
         Paciente paciente = new Paciente();
         paciente.nome = nome;
