@@ -1,6 +1,6 @@
 package main.java.comunicacao.pessoa;
 
-public abstract class Pessoa {
+public class Pessoa {
     protected int cgccpf;
     protected String nome;
     protected String tipopessoa;
