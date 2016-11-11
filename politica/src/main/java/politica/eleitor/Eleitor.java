@@ -15,8 +15,7 @@ public class Eleitor extends Pessoa{
     public int retornaTitulo(){
         return this.tituloEleitor;
     }
-    public void gravarVoto(boolean voto)
-    {
+    public void gravarVoto(boolean voto){
         if(voto)
         {
             this.votou = true;

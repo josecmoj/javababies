@@ -1,7 +1,8 @@
-package br.com.javaforbabies.alimentacao;
+package main.java.alimentacao;
 
+// barra de comentario
 /**
- * Created by mtraykavo on 03/11/2016.
+ * Created by mtraykavo on 11/11/2016.
  */
 public class Kilo extends GeneroAlimenticio {
 
@@ -14,6 +15,5 @@ public class Kilo extends GeneroAlimenticio {
 
     public void PesarPorPrato(){
     }
-
 
 }
