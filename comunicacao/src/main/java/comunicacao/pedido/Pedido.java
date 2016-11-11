@@ -7,7 +7,7 @@ public class Pedido extends ComunicacaoVisual {
     protected float valorPedido;
     //*protected String nomeProduto;
     //*protected String nomeCliente;
-    //*protected  String nomeFuncionario;
+    //*protected  String nomeFuncionario;...
 
     public int getNumeroPedido() {
         return this.numeroPedido;
