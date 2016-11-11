@@ -3,7 +3,7 @@ package main.java.alimentacao;
 /**
  * Created by mtraykavo on 03/11/2016.
  */
-public class GeneroAlimenticio {
+public class GeneroAlimenticio  {
 
     String Nome;
     String Especialização;
