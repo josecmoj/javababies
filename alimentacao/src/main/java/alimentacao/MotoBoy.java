@@ -1,9 +1,9 @@
-package br.com.javaforbabies.alimentacao;
+package main.java.alimentacao;
 
 /**
  * Created by mtraykavo on 03/11/2016.
  */
-public class MotoBoy extends Funcionario {
+public class MotoBoy extends Pessoa {
 
     String CNH;
 

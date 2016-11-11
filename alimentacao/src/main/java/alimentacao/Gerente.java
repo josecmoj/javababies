@@ -1,4 +1,4 @@
-package br.com.javaforbabies.alimentacao;
+package main.java.alimentacao;
 
 /**
  * Created by mtraykavo on 03/11/2016.
