@@ -13,13 +13,14 @@ public class CadastroPaciente {
             JOptionPane.showMessageDialog(null, "Por favor, digite seu nome!");
             nome = JOptionPane.showInputDialog(null, "Digite seu nome: ");
         }
+
         String cpf = JOptionPane.showInputDialog(null, "Digite seu CPF: ");
         while (cpf.isEmpty()){
             JOptionPane.showMessageDialog(null, "Por favor, digite seu CPF!");
             cpf = JOptionPane.showInputDialog(null, "Digite seu CPF: ");
         }
-
-
+        String resultado="Confirma cadastro?";
+        JOptionPane.showConfirmDialog(null, resultado);
 
         Paciente paciente = new Paciente();
         paciente.nome = nome;
