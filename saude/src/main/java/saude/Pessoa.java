@@ -8,6 +8,7 @@ public abstract class Pessoa {
     String nome;
     String cpf;
     String rg;
+    String telefone;
 
     public String getNome() {
         return nome;
