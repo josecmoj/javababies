@@ -11,7 +11,7 @@ int numero;
 
     }
 
-    public void Identificação(){
+    public void Identificacao(){
     }
 
     public void Salario(){

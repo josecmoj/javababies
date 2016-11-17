@@ -6,7 +6,7 @@ package main.java.alimentacao;
 public class GeneroAlimenticio  {
 
     String Nome;
-    String Especialização;
+    String Especializacao;
     int VlrMedio;
     int QtdFunc;
 
