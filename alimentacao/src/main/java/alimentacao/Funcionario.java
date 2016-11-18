@@ -7,7 +7,7 @@ public class Funcionario extends Pessoa {
 
     public Funcionario()
     {
-        int Identificação;
+        int Identificacao;
         double Salario;
     }
 
