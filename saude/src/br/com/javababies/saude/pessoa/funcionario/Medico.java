@@ -8,9 +8,8 @@ public class Medico extends Funcionario {
     String diagnostico;
     //Receita receita;
 
-    public Medico()
-    {
-        //receita = new Receita();
+    public Medico(String nome, String cpf, String rg, String telefone) {
+    	super(nome, cpf, rg, telefone);
     }
 
     public double AtribuirSalario(double salario, int bonus){
