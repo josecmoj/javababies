@@ -1,12 +1,14 @@
-package main.java.saude;
+package br.com.javababies.saude;
 
 
 import javax.swing.*;
+import br.com.javababies.saude.pessoa.*;
+import br.com.javababies.saude.pessoa.paciente.Paciente;
 
 /**
  * Created by mcsilva3 on 09/11/2016.
  */
-public class CadastroPaciente {
+public class Saude {
     public static void main(String[] args){
         String nome = JOptionPane.showInputDialog(null, "Digite seu nome: ");
         while (nome.isEmpty()){

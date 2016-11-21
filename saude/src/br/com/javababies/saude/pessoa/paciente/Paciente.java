@@ -1,4 +1,8 @@
-package main.java.saude;
+package br.com.javababies.saude.pessoa.paciente;
+
+import br.com.javababies.saude.Recepcao;
+import br.com.javababies.saude.pessoa.Pessoa;
+import br.com.javababies.saude.pessoa.funcionario.Medico;
 
 /**
  * Created by mcsilva3 on 03/11/2016.

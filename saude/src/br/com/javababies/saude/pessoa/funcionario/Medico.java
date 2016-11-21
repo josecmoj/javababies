@@ -1,4 +1,4 @@
-package main.java.saude;
+package br.com.javababies.saude.pessoa.funcionario;
 
 /**
  * Created by mcsilva3 on 03/11/2016.
