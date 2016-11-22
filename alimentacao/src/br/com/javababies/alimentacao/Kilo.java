@@ -1,4 +1,4 @@
-package main.java.alimentacao;
+package br.com.javababies.alimentacao;
 
 // barra de comentario
 /**
@@ -8,9 +8,7 @@ public class Kilo extends GeneroAlimenticio {
 
     String SelfService;
 
-    public Kilo()
-    {
-
+    public Kilo(){
     }
 
     public void PesarPorPrato(){
