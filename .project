@@ -3,6 +3,7 @@
 	<name>javababies</name>
 	<comment></comment>
 	<projects>
+		<project>CursoJava</project>
 	</projects>
 	<buildSpec>
 	</buildSpec>

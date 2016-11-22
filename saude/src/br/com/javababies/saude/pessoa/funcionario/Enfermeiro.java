@@ -1,21 +1,17 @@
-package main.java.saude;
+package br.com.javababies.saude.pessoa.funcionario;
 
 /**
  * Created by mcsilva3 on 03/11/2016.
  */
 public class Enfermeiro extends Funcionario {
 
-    //Medicamento medicamento;
-    Paciente paciente;
 
     /**
      * COnstrutor para objetos da classe Enfermeiro
      */
-    public Enfermeiro()
-    {
-        //medicamento = new Medicamento();
-        paciente = new Paciente();
-    }
+    public Enfermeiro(String nome, String cpf, String rg, String telefone) {
+    	super(nome, cpf, rg, telefone);
+   }
 
     public String medicarPaciente(String resultado){
         return resultado;
