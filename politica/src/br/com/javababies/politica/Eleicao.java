@@ -1,6 +1,6 @@
-package main.java.politica;
+package br.com.javababies.politica;
 
-import main.java.politica.eleitor.Eleitor;
+import eleitor.pessoa.EleitorCandidato;
 
 /**
  * Created by jloliveira1 on 01/11/2016.
@@ -11,7 +11,7 @@ public class Eleicao
     private Vereador verea = new Vereador();
     private Prefeito pref = new Prefeito();
     private Governador gov = new Governador();
-    private Eleitor elei = new Eleitor();
+    private EleitorCandidato elei = new EleitorCandidato();
 
 
     public void votar()

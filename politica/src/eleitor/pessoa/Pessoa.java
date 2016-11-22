@@ -1,4 +1,4 @@
-package main.java.politica.eleitor;
+package eleitor.pessoa;
 
 
 /**

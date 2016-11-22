@@ -1,4 +1,4 @@
-package main.java.politica;
+package br.com.javababies.politica;
 
 /**
  * Created by jloliveira1 on 01/11/2016.
