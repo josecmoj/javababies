@@ -1,4 +1,4 @@
-package main.java;
+package br.com.javababies.vestuario;
 
 /**
  * Created by bcbertelli on 18/11/2016.
