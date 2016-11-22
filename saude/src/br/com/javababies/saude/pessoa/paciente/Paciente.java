@@ -14,9 +14,10 @@ public class Paciente extends Pessoa{
 
     public Paciente(String nome, String cpf, String rg, String telefone){
     	super(nome, cpf, rg, telefone);
-    	System.out.println("Seu nome: "+nome);
+    	
+    	/*System.out.println("Seu nome: "+nome);
         System.out.println("CPF: "+cpf);
         System.out.println("RG: "+rg);
-        System.out.println("TELEFONE: "+telefone);
+        System.out.println("TELEFONE: "+telefone);*/
     }
 }
