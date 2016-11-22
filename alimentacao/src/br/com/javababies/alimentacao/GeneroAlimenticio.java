@@ -1,4 +1,4 @@
-package main.java.alimentacao;
+package br.com.javababies.alimentacao;
 
 /**
  * Created by mtraykavo on 03/11/2016.
@@ -11,12 +11,8 @@ public class GeneroAlimenticio  {
     int QtdFunc;
 
 
-    public GeneroAlimenticio()
-    {
-
+    public GeneroAlimenticio(){
     }
-
-
     public void HrAbertura(){
     }
     public void HrFechamento(){

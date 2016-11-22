@@ -1,4 +1,4 @@
-package main.java.alimentacao;
+package br.com.javababies.alimentacao;
 
 /**
  * Created by mtraykavo on 03/11/2016.
@@ -6,9 +6,7 @@ package main.java.alimentacao;
 public class PessoaHabilitada extends Pessoa {
     int Cnh;
 
-    public PessoaHabilitada()
-    {
-
+    public PessoaHabilitada(){
     }
 
     public void Dirigir(){
