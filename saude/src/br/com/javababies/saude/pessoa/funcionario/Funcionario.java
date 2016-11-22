@@ -23,6 +23,7 @@ public class Funcionario extends Pessoa {
         return this.atividade;
     }
 
-    public Funcionario() {
+    public Funcionario(String nome, String cpf, String rg, String telefone) {
+    	super(nome, cpf, rg, telefone);
     }
 }
