@@ -7,8 +7,9 @@ import eleitor.pessoa.EleitorCandidato;
  */
 public class TestaEleicao {
     public static void main(String[]args){
-        EleitorCandidato ele1 = new EleitorCandidato();
-        ele1.gravarNome("Fulano");
-        System.out.print(ele1.retornaNome());
+        EleitorCandidato ele1 = new EleitorCandidato("Trabalhador", 443384250, 445778954);
+        EleitorCandidato can1 = new EleitorCandidato("BandidãoMor", 157171380, 456465465, CargoCandidatoEnum.PRESIDENTE,"45");
+        ele1.exibeDados();
+        can1.exibeDados();
     }
 }

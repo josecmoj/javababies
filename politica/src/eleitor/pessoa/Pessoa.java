@@ -8,14 +8,20 @@ public abstract class Pessoa {
     private String nome;
     private int RG;
     private int CPF;
+    
+    public Pessoa(String nome, int RG, int CPF) {
+    	gravarNome(nome);
+    	gravarRG(RG);
+    	gravarCPF(CPF);
+    }
 
-    public void gravarNome (String nome){
+    private void gravarNome (String nome){
         this.nome = nome;
     }
-    public void gravarRG (int RG){
+    private void gravarRG (int RG){
         this.RG = RG;
     }
-    public void gravarCPF (int CPF){
+    private void gravarCPF (int CPF){
         this.CPF = CPF;
     }
     public String retornaNome(){
@@ -27,5 +33,6 @@ public abstract class Pessoa {
     public int retornaCPF(){
         return CPF;
     }
+    public abstract void exibeDados();
 
 }
