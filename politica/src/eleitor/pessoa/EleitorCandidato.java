@@ -28,6 +28,12 @@ public class EleitorCandidato extends Pessoa implements Candidato{
 				this.numeroCandidato = Integer.parseInt(numeroCandidatoStr);
 				this.cargoCandidato = cargoCandidatoEnum;
 			}
+			else{
+				System.out.println("Número de candidato não respeita o tamanho, tamanho correto: "+cargoCandidatoEnum.numero());
+			}
+		}
+		else{
+			System.out.println("Valor não numérico para candidato");
 		}
     	switch (cargoCandidatoEnum) {
 		case DEPUTADOESTADUAL:
