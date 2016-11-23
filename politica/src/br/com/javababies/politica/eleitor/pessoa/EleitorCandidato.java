@@ -1,4 +1,4 @@
-package eleitor.pessoa;
+package br.com.javababies.politica.eleitor.pessoa;
 
 import br.com.javababies.politica.Candidato;
 import br.com.javababies.politica.CargoCandidatoEnum;

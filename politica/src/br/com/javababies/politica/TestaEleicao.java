@@ -1,6 +1,6 @@
 package br.com.javababies.politica;
 
-import eleitor.pessoa.EleitorCandidato;
+import br.com.javababies.politica.eleitor.pessoa.EleitorCandidato;
 
 /**
  * Created by jloliveira1 on 03/11/2016.
