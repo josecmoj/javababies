@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="alimentacao/src"/>
+	<classpathentry kind="src" path="comunicacao/src"/>
+	<classpathentry kind="src" path="politica/src"/>
+	<classpathentry kind="src" path="saude/src"/>
+	<classpathentry kind="src" path="transporte/src/main/java"/>
+	<classpathentry kind="src" path="vestuario/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="transporte/out/production/transporte"/>
+</classpath>

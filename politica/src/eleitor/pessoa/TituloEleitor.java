@@ -8,10 +8,11 @@ public class TituloEleitor {
 	private int secao;
 	
 	public TituloEleitor(){
+		Math.random();
 		this.numero = numeroTit();
 		this.zona = numeroZona();
 		this.secao = numeroSecao();
-		System.out.println("Número: "+this.numero+"\nZona: "+this.zona+"\nSeção: "+this.secao);
+		//System.out.println("Criado com sucesso:\nNúmero: "+this.numero+"\nZona: "+this.zona+"\nSeção: "+this.secao);
 	}
 	private int numeroTit(){
 		return aleatorio();
@@ -30,5 +31,8 @@ public class TituloEleitor {
 		if(aleatorio < 0)
 			aleatorio = aleatorio * (-1);
 		return aleatorio;
+	}
+	public void exibirTitulo(){
+		System.out.println("Dados do título de eleitor:\nNúmero: "+this.numero+"\nZona: "+this.zona+"\nSeção: "+this.secao);
 	}
 }

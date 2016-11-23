@@ -11,7 +11,7 @@ public class Eleicao
     private Vereador verea = new Vereador();
     private Prefeito pref = new Prefeito();
     private Governador gov = new Governador();
-    private EleitorCandidato elei = new EleitorCandidato();
+    private EleitorCandidato elei = new EleitorCandidato("Trabalhador", 443384250, 445485955);
 
 
     public void votar()
