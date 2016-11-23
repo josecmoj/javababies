@@ -1,39 +1,49 @@
 package main.java.comunicacao.pessoa;
 
-public class Pessoa {
-    protected int cgccpf;
-    protected String nome;
-    protected String tipopessoa;
+public abstract class Pessoa {
+    private int CGCCPF;
+    private String nome;
+    private String tipoPessoa;
 
     /** Metodos Personalizados
     **/
     public void status(){
         System.out.println("CGCCPF : " + getCgccpf());
         System.out.println ("NOME  : " + getNome());
-        System.out.println ("TIPO  : " + getTipopessoa());
+        System.out.println ("TIPO  : " + getTipoPessoa());
     }
+    public abstract void exibeDados();
+    
 
     /** Metodos Especiais
     **/
     public int getCgccpf() {
-        return this.cgccpf;
+        return this.CGCCPF;
     }
-    public void setCgccpf(int cgccpf) {
-        this.cgccpf = cgccpf;
+    private void setCgccpf(int cgccpf) {
+        this.CGCCPF = cgccpf;
     }
 
     public String getNome() {
         return this.nome;
     }
-    public void setNome(String nome) {
+    private void setNome(String nome) {
         this.nome = nome;
     }
 
-    public String getTipopessoa() {
-        return this.tipopessoa;
+    public String getTipoPessoa() {
+        return this.tipoPessoa;
     }
-    public void setTipopessoa(String tipopessoa) {
-        this.tipopessoa = tipopessoa;
+    private void setTipoPessoa(String tipoPessoa) {
+        this.tipoPessoa = tipoPessoa;
     }
 
+    public Pessoa(String nome, String tipoPessoa,int CGCCPF){
+    	setNome(nome);
+    	setTipoPessoa(tipoPessoa);
+    	setCgccpf(CGCCPF);
+    }
+    
+    
+    
 }
