@@ -1,0 +1,9 @@
+Revisão de código:
+
+1.Criar a classe Diagnostico
+2.Rever a nomenclatura dos métodos, obdecendo a regra
+        a.primeira letra minuscula
+        b."camel case" para separar as palavras que definem o método
+
+        ex.: public double AtribuirSalario() passa para
+             public double atribuirSalario()

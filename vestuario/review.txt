@@ -1,0 +1,12 @@
+Revisão de Código:
+
+1.Criar pacotes para separar as classes em uma estrutura que ajude a refletir
+  a realidade, exemplo:
+
+  br.com.javababies.vestuario.pessoa
+  br.com.javababies.vestuario.roupa
+  br.com.javababies.vestuario.acessorio
+
+2.Criar classe para Marca
+3.Criar enums para Genero e Tamanho
+3.Criar classe para Cor

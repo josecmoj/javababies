@@ -1,0 +1,25 @@
+Revisão de código:
+
+1. Inverter o empacotamento:
+
+      br.com.javababies.politica.eleitor.pessoa
+
+      para
+
+      br.com.javababies.politica.pessoa.eleitor
+
+2. Criar o pacote br.com.javababies.politica.eleicao para adicionar as classes
+   que representam a eleição.
+
+3. Criar as classe Eleicao, Canditadura e Voto
+
+4. Criar pacote br.com.javababies.politica.cargo
+
+5. Criar as classes Cargo, Vereador, Prefeito, Governador, DeputadoEstadual,
+   DeputadadoFederal, Senador e Presidente no pacote cargo(4), para refletir
+   melhor a realidade e facilitar a relação de Eleitor e Candidato
+
+3. Colocar as classes base no pacote base. Ex:
+
+    a classe Pessoa fica em br.com.javababies.politica.pessoa
+    a classe Eleitor ficaria em br.com.javababies.politica.eleitor
