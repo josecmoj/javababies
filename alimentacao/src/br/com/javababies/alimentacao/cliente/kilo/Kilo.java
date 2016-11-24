@@ -1,4 +1,6 @@
-package br.com.javababies.alimentacao;
+package br.com.javababies.alimentacao.cliente.kilo;
+
+import br.com.javababies.alimentacao.cliente.generoalimenticio.GeneroAlimenticio;
 
 // barra de comentario
 /**

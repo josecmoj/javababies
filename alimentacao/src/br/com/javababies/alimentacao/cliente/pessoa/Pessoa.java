@@ -1,18 +1,24 @@
-package br.com.javababies.alimentacao;
+package br.com.javababies.alimentacao.cliente.pessoa;
 
 import javax.swing.JOptionPane;
 
 public abstract class Pessoa {
 	public static void main(String[] args) {
-		String nome = JOptionPane.showInputDialog("Cadastre Novo Cliente: ").toLowerCase();
+		//String nome = JOptionPane.showInputDialog("Cadastre Novo Cliente: ").toLowerCase();
+		String nome = JOptionPane.showInputDialog("Cadastre Novo Cliente: ");
 		
 		switch (nome)  {
-		case "marcos":
+		case "Marcos":
 			//JOptionPane.showMessageDialog(null, "CADASTRO EFETUADO");
 			String identificacao = JOptionPane.showInputDialog("Número do RG: ").toLowerCase();
 			String endereco = JOptionPane.showInputDialog("Endereço ").toLowerCase();
 			String cep = JOptionPane.showInputDialog("CEP ").toLowerCase();
 			JOptionPane.showMessageDialog(null, "CADASTRO EFETUADO");
+			System.out.println("Nome: "+nome);
+			System.out.println("Número do RG: "+identificacao);
+			System.out.println("Endereço: "+endereco);
+			System.out.println("CEP: "+cep);
+			System.out.println(" ** CADASTRO EFETUADO ** ");
 			break;
 		default:
 			JOptionPane.showMessageDialog(null, "Erro no Cadastro");

@@ -1,4 +1,6 @@
-package br.com.javababies.alimentacao;
+package br.com.javababies.alimentacao.cliente.gerente;
+
+import br.com.javababies.alimentacao.cliente.funcionario.Funcionario;
 
 /**
  * Created by mtraykavo on 03/11/2016.
