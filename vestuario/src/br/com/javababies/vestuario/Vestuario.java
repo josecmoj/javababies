@@ -3,51 +3,27 @@ package br.com.javababies.vestuario;
 /**
  * Created by bcbertelli on 09/11/2016.
  */
-public abstract class Vestuario {
-    private String genero;
-    private String cor;
-    private String tamanho;
-    private String marca;
-    private double valor;
-
-    public void gravarGenero(String generoRecebido){
-        this.genero = generoRecebido;
-
+public abstract class Vestuario extends Marca{
+    public String genero;
+    public String cor;
+    public String tamanho;
+    public double valor;
+    
+    public Vestuario(String genero, String cor, String tamanho, String marca, double valor) {
+		this.genero = genero;
+		this.cor = cor;
+		this.tamanho = tamanho;
+		//this.marca = marca;
+		gravarMarca(marca);
+		this.valor = valor;
+		 
     }
-    public String retornarGenero() {
-        return this.genero;
-
-    }
-    public void gravarCor(String corRecebido){
-        this.cor = corRecebido;
-        
-    }
-    public String retornarCor() {
-        return this.cor;
-    }
-    public void gravarMarca(String marcaRecebido){
-        this.marca = marcaRecebido;
-
-    }
-    public String retornarMarca() {
-        return this.marca;
-
-    }
-    public void gravarTamanho(String tamanhoRecebido){
-        this.tamanho = tamanhoRecebido;
-
-    }
-    public String retornarTamanho() {
-        return this.tamanho;
-
-    }
-
     
     public void mostrar(){
-        System.out.println(this.retornarGenero());
-        System.out.println(this.retornarCor());
-        System.out.println(this.retornarMarca());
-        System.out.println(this.retornarTamanho());
+        System.out.println(this.genero);
+        System.out.println(this.cor);
+        System.out.println(retornaMarca());
+        System.out.println(this.tamanho);
     }
 
 }
