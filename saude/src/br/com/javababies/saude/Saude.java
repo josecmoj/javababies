@@ -16,10 +16,18 @@ public class Saude {
 		Medico medico = new Medico("Murilo Marques", "395", "48462", "976425290", 5631); 
 		Atendente atendente = new Atendente("Juliana", "2323232", "1232312", "976425290");
 
-		atendente.GeraNumeroAtendimento();
+		atendente.geraNumeroAtendimento();
 		medico.escreverReceita(paciente.nome, medico.nome, atendente.numAtend);
 		
-		System.out.println(medico.receita);
-	
+		System.out.println(medico.receita+"\n");
+		
+		Paciente paciente1 = new Paciente("Paulo Monteiro", "395", "48462", "994545454");  
+		Medico medico1 = new Medico("Marcos Raykavo", "395", "48462", "976425290", 5631); 
+		Atendente atendente1 = new Atendente("Jean Carlos", "2323232", "1232312", "976425290");
+
+		atendente.geraNumeroAtendimento();
+		medico.escreverReceita(paciente1.nome, medico1.nome, atendente1.numAtend);
+		
+		System.out.println(medico.receita+"\n");
 	}
 }

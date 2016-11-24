@@ -11,15 +11,15 @@ public class Funcionario extends Pessoa {
     double salario;
     public String atividade;
 
-    public int GeraId(){
+    public int geraId(){
         return this.id;
     }
 
-    public double AtribuirSalario(){
+    public double atribuirSalario(){
         return this.salario;
     }
 
-    public String AtribuirAtividade(){
+    public String atribuirAtividade(){
         return this.atividade;
     }
 

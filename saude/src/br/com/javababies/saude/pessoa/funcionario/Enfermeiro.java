@@ -17,11 +17,11 @@ public class Enfermeiro extends Funcionario {
         return resultado;
     }
 
-    public double AtribuirSalario(double salario, int bonus){
+    public double atribuirSalario(double salario, int bonus){
         return salario + bonus;
     }
 
-    public String AtribuirAtividade(String atividade){
+    public String atribuirAtividade(String atividade){
         return atividade;
     }
 }

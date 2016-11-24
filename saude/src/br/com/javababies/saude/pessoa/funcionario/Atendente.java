@@ -10,9 +10,9 @@ public class Atendente extends Funcionario{
 		super(nome, cpf, rg, telefone);
 	}
 	
-	public int GeraNumeroAtendimento(){
+	public int geraNumeroAtendimento(){
 		Random numRandom = new Random();
-		numAtend = numRandom.nextInt(150);
+		numAtend = numRandom.nextInt(20);
 		return numAtend;
 	}
 
