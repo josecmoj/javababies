@@ -1,29 +1,24 @@
-package br.com.javababies.politica.eleitor.pessoa;
+package br.com.javababies.politica.cargo;
 
-import br.com.javababies.politica.Candidato;
-import br.com.javababies.politica.CargoCandidatoEnum;
+import br.com.javababies.politica.pessoa.Pessoa;
+import br.com.javababies.politica.pessoa.TituloEleitor;
+import br.com.javababies.politica.validacao.Validacao;
 
 /**
  * Created by jloliveira1 on 31/10/2016.
  */
-public class EleitorCandidato extends Pessoa implements Candidato{
-    private TituloEleitor titulo;
-    private int numeroCandidato;
+public class Candidato extends Pessoa implements CandidatoInterface{
+   
+	private int numeroCandidato;
     private CargoCandidatoEnum cargoCandidato;
-    private int zona;
-    private int secao;
-    private boolean votou;
     
-    public EleitorCandidato(String nome, int RG, int CPF){
-    	super(nome, RG, CPF);
-    	this.titulo = new TituloEleitor();
+    public Candidato(String nome, int RG, int CPF,CargoCandidatoEnum cargoCandidatoEnum, String numeroCandidatoStr) {
+		super(nome, RG, CPF);
+		
+    	Validacao val = new Validacao();
     	
-    }
-    public EleitorCandidato(String nome, int RG, int CPF,CargoCandidatoEnum cargoCandidatoEnum, String numeroCandidatoStr){
-    	super(nome, RG, CPF);
-    	this.titulo = new TituloEleitor();
     	//this.numeroCandidato = validaNumeroCandidato(cargoCandidatoEnum);
-		if(isNumeric(numeroCandidatoStr)){
+		if(val.isNumeric(numeroCandidatoStr)){
 			if(numeroCandidatoStr.length() == cargoCandidatoEnum.numero()){
 				this.numeroCandidato = Integer.parseInt(numeroCandidatoStr);
 				this.cargoCandidato = cargoCandidatoEnum;
@@ -58,7 +53,6 @@ public class EleitorCandidato extends Pessoa implements Candidato{
 			break;
 		}
     	
-    	this.titulo = new TituloEleitor();
     }
     private boolean isNumeric(String str){
     	 try  
@@ -77,16 +71,7 @@ public class EleitorCandidato extends Pessoa implements Candidato{
     		return true;
     	}else return false;
     }*/
-    
-	public void retornaTitulo(){
-       titulo.exibirTitulo();
-    }
-    public void gravarVoto(boolean voto){
-        if(voto)
-        {
-            this.votou = true;
-        }
-    }
+    	    
     public void gravarCandidato(String numCandidato){
     	
     }
@@ -96,7 +81,6 @@ public class EleitorCandidato extends Pessoa implements Candidato{
 		System.out.println("Nome: "+this.retornaNome());
 		System.out.println("CPF: "+this.retornaCPF());
 		System.out.println("RG: "+this.retornaRG());
-		this.retornaTitulo();
 		System.out.println("FIM DADOS############\n");
 	}
 	private void retornaCandidato() {

@@ -1,4 +1,4 @@
-package br.com.javababies.politica.eleitor.pessoa;
+package br.com.javababies.politica.pessoa;
 
 import java.util.Random;
 

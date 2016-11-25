@@ -1,4 +1,4 @@
-package br.com.javababies.politica;
+package br.com.javababies.politica.cargo;
 
 public enum CargoCandidatoEnum {
 	PRESIDENTE(2), 
