@@ -4,10 +4,9 @@ public enum CargoCandidatoEnum {
 	PRESIDENTE(2), 
 	PREFEITO(2), 
 	GOVERNADOR(4), 
-	VEREADOR(4), 
+	VEREADOR(5), 
 	DEPUTADOESTADUAL(5), 
-	DEPUTADOFEDERAL(5),
-	NAOCANDIDATO (0);
+	DEPUTADOFEDERAL(5);
 	
 	private int numero;
 

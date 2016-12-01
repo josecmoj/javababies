@@ -10,7 +10,14 @@ import br.com.javababies.politica.validacao.Validacao;
 public class Candidato extends Pessoa implements CandidatoInterface{
    
 	private int numeroCandidato;
-    private CargoCandidatoEnum cargoCandidato;
+    public int getNumeroCandidato() {
+		return numeroCandidato;
+	}
+
+	public CargoCandidatoEnum getCargoCandidato() {
+		return cargoCandidato;
+	}
+	private CargoCandidatoEnum cargoCandidato;
     
     public Candidato(String nome, int RG, int CPF,CargoCandidatoEnum cargoCandidatoEnum, String numeroCandidatoStr) {
 		super(nome, RG, CPF);
@@ -19,7 +26,7 @@ public class Candidato extends Pessoa implements CandidatoInterface{
     	
     	//this.numeroCandidato = validaNumeroCandidato(cargoCandidatoEnum);
 		if(val.isNumeric(numeroCandidatoStr)){
-			if(numeroCandidatoStr.length() == cargoCandidatoEnum.numero()){
+			if(numeroCandidatoStr.length() >= cargoCandidatoEnum.numero()){
 				this.numeroCandidato = Integer.parseInt(numeroCandidatoStr);
 				this.cargoCandidato = cargoCandidatoEnum;
 			}
@@ -53,19 +60,7 @@ public class Candidato extends Pessoa implements CandidatoInterface{
 			break;
 		}
     	
-    }
-    private boolean isNumeric(String str){
-    	 try  
-    	  {  
-    	    int d = Integer.parseInt(str);  
-    	  }  
-    	  catch(NumberFormatException nfe)  
-    	  {  
-    	    return false;  
-    	  }  
-    	  return true;  
-    }
-    
+    }    
 	/*private boolean isGovernador(CargoCandidatoEnum cargoCandidatoEnum) {
     	if(cargoCandidatoEnum.equals(CargoCandidatoEnum.GOVERNADOR)){
     		return true;

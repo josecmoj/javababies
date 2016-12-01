@@ -9,7 +9,7 @@ import br.com.javababies.politica.validacao.Validacao;
 /**
  * Created by jloliveira1 on 31/10/2016.
  */
-public class Eleitor extends Pessoa implements CandidatoInterface{
+public class Eleitor extends Pessoa{
     private TituloEleitor titulo;
     private boolean votou;
     //private int numeroCandidato;
@@ -20,7 +20,6 @@ public class Eleitor extends Pessoa implements CandidatoInterface{
     public Eleitor(String nome, int RG, int CPF){
     	super(nome, RG, CPF);
     	this.titulo = new TituloEleitor();
-    	
     }
     
     
