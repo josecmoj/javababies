@@ -1,4 +1,4 @@
-package br.com.javababies.alimentacao.cliente.generoalimenticio;
+package br.com.javababies.alimentacao.restaurante;
 
 /**
  * Created by mtraykavo on 03/11/2016.
